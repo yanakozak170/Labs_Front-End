@@ -25,8 +25,8 @@ header .logo {
 }
 
 .logo-img {
-    max-height: 100px; /* Збільшена висота логотипу */
-    max-width: 250px;  /* Збільшена ширина логотипу */
+    max-height: 100px;
+    max-width: 250px;
     object-fit: contain;
 }
 
@@ -47,7 +47,7 @@ main {
 
 .item {
     display: flex;
-    align-items: center; /* Вирівнюємо по центру по вертикалі */
+    align-items: center;
     border: 1px solid #ddd;
     padding: 10px;
     gap: 20px;
@@ -62,14 +62,14 @@ main {
 }
 
 .image-medium {
-    width: 50%; /* Задаємо ширину для зображення */
+    width: 50%;
     height: 150px;
 }
 
 .image-medium img {
-    width: 100%; /* Зображення розтягуються на всю ширину контейнера */
+    width: 100%;
     height: 100%;
-    object-fit: cover; /* Забезпечує заповнення контейнера зображенням */
+    object-fit: cover;
     border-radius: 8px;
 }
 
@@ -96,7 +96,7 @@ main {
 }
 
 .item-details {
-    width: 50%; /* Текст займає праву половину */
+    width: 50%;
     padding: 10px;
 }
 

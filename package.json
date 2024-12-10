@@ -1,0 +1,19 @@
+{
+    "name": "lab2_fe",
+    "version": "2.0.0",
+    "description": "проект для макетів з SASS та Stylus",
+    "scripts": {
+        "build-sass-maket1": "sass Maket1/sass/style.sass Maket1/sass_with_css/style.css",
+        "build-sass-maket2": "sass Maket2/sass/style.sass Maket2/sass_with_css/style.css",
+        "build-sass-maket3": "sass Maket3/sass/style.sass Maket3/sass_with_css/style.css",
+        "build-sass-all": "npm run build-sass-maket1 && npm run build-sass-maket2 && npm run build-sass-maket3",
+        "build-stylus-maket4": "stylus Maket4/stylus/style.styl -o Maket4/stylus_with_css/style.css",
+        "build-stylus-maket5": "stylus Maket5/stylus/style.styl -o Maket5/stylus_with_css/style.css",
+        "build-stylus-all": "npm run build-stylus-maket4 && npm run build-stylus-maket5"
+    },
+    "author": "Yana Kozak",
+    "license": "ISC",
+    "dependencies": {
+        "stylus": "^0.64.0"
+    }
+}
